@@ -1,0 +1,13 @@
+/* doing style on body selector (which is not present in app.component.html), it will not affect the html page - this is how Angular works */
+/* body { */
+/* "!important" means that this property will override any other property with the same name. */
+/* border: 10px solid red !important; */
+/* } */
+
+/* :host means that this style will be applied to the host element of the component itself - this is how Angular works */
+/* add some style to the app component template=>we will use the app.component.css file and call the host element :host {} (this basically means the app-root component) */
+:host {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

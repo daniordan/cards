@@ -1,0 +1,4 @@
+/* in order to add style use classes from the card.component.html template file*/
+.card {
+    width: 350px;
+}
