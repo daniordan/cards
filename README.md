@@ -1,5 +1,7 @@
 # Cards Angular App
 
+A single page that has a minimal design, to display a series of three cards looking things or posts to a user.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
 ## Prerequisites
